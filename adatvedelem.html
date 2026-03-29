@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="hu" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Adatvédelmi tájékoztató - Friderikusz István</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.png?v=2" type="image/png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Outfit:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="index.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+  <!-- ============ NAVIGÁCIÓ ============ -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__logo">
+        <span class="navbar__logo-icon">FI</span>
+        <span class="navbar__logo-text">Friderikusz István<span class="navbar__logo-subtitle">Gyógymasszőr</span></span>
+      </a>
+
+      <div class="navbar__actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Témaváltás">
+          <span class="theme-toggle__icon theme-toggle__icon--sun"><i data-lucide="sun" class="toggle-icon"></i></span>
+          <span class="theme-toggle__icon theme-toggle__icon--moon"><i data-lucide="moon"
+              class="toggle-icon"></i></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main style="padding-top: 120px; padding-bottom: 60px; min-height: 80vh;">
+    <div class="container" style="max-width: 800px;">
+      <h1 style="font-family: 'Inter', sans-serif; margin-bottom: 24px; color: var(--color-primary);">Adatvédelmi
+        tájékoztató</h1>
+
+      <p style="margin-bottom: 16px;">
+        Ez a weboldal kizárólag információs célokat szolgál. A weboldalon nem működik kapcsolatfelvételi űrlap, nem
+        kérünk be és nem tárolunk semmilyen személyes adatot a látogatókról.
+      </p>
+
+      <h2 style="font-family: 'Inter', sans-serif; margin-top: 32px; margin-bottom: 16px;">Sütik (Cookies) használata
+      </h2>
+      <p style="margin-bottom: 16px;">
+        A weboldal nem használ nyomkövető sütiket (tracking cookies) és nem gyűjt analitikai adatokat a felhasználói
+        viselkedésről. Az egyetlen technikai adat, amit a böngészője eltárolhat, a választott vizuális téma (világos
+        vagy sötét mód) helyi preferenciája (localStorage), amely nem minősül személyes adatnak, és csak a weboldal
+        kényelmi funkcióit szolgálja.
+      </p>
+
+      <h2 style="font-family: 'Inter', sans-serif; margin-top: 32px; margin-bottom: 16px;">Kapcsolatfelvétel</h2>
+      <p style="margin-bottom: 16px;">
+        Amennyiben e-mailben vagy telefonon veszi fel a kapcsolatot a szolgáltatóval, az elküldött e-mail címet vagy
+        telefonszámot kizárólag a megkeresés megválaszolása és az időpontegyeztetés céljából kezeljük, azokat harmadik
+        félnek nem adjuk ki.
+      </p>
+
+      <div style="margin-top: 48px;">
+        <a href="index.html" class="btn btn--primary">Vissza a főoldalra</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">© 2026 Friderikusz István - Gyógymasszőr</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>lucide.createIcons();</script>
+</body>
+
+</html>

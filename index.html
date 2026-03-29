@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="hu" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Gyógymasszázs szolgáltatások - fájdalomcsillapítás, stresszoldás, regeneráció. Friderikusz István okleveles gyógymasszőr.">
+  <title>Gyógymasszázs - Friderikusz István</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.png?v=2" type="image/png">
+
+  <!-- OpenGraph Meta Tags -->
+  <meta property="og:title" content="Gyógymasszázs - Friderikusz István">
+  <meta property="og:description"
+    content="Gyógymasszázs szolgáltatások - fájdalomcsillapítás, stresszoldás, regeneráció. Friderikusz István okleveles gyógymasszőr.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://friderikuszmassage.hu/">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Gyógymasszázs - Friderikusz István">
+  <meta name="twitter:description"
+    content="Gyógymasszázs szolgáltatások - fájdalomcsillapítás, stresszoldás, regeneráció.">
+
+  <!-- JSON-LD Local Business Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HealthAndBeautyBusiness",
+    "name": "Friderikusz István Gyógymasszőr",
+    "image": "https://friderikuszmassage.hu/szalon.jpg",
+    "description": "Gyógymasszázs szolgáltatások - fájdalomcsillapítás, stresszoldás, regeneráció. Személyre szabott kezelések Budapesten.",
+    "telephone": "+36 XXXXXXXX",
+    "email": "info@example.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Budapest",
+      "addressRegion": "XII. kerület",
+      "addressCountry": "HU"
+    },
+    "url": "https://friderikuszmassage.hu/"
+  }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Outfit:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="index.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+  <!-- ============ NAVIGÁCIÓ ============ -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#hero" class="navbar__logo">
+        <span class="navbar__logo-icon">FI</span>
+        <span class="navbar__logo-text">Friderikusz István<span class="navbar__logo-subtitle">Gyógymasszőr</span></span>
+      </a>
+
+      <nav class="navbar__nav" id="navMenu">
+        <a href="#miert" class="navbar__link">Miért fontos?</a>
+        <a href="#szolgaltatasok" class="navbar__link">Szolgáltatások</a>
+        <a href="#hogyan" class="navbar__link">Hogyan működik?</a>
+        <a href="#velemenyek" class="navbar__link">Vélemények</a>
+        <a href="#kapcsolat" class="navbar__link">Kapcsolat</a>
+      </nav>
+
+      <div class="navbar__actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Témaváltás">
+          <span class="theme-toggle__icon theme-toggle__icon--sun"><i data-lucide="sun" class="toggle-icon"></i></span>
+          <span class="theme-toggle__icon theme-toggle__icon--moon"><i data-lucide="moon"
+              class="toggle-icon"></i></span>
+        </button>
+        <button class="navbar__hamburger" id="hamburger" aria-label="Menü megnyitása">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <img src="hero-bg.png" alt="Prémium gyógymasszázs háttér" class="hero__bg-image">
+      <div class="hero__bg-overlay"></div>
+
+      <div class="hero__bg-shapes">
+        <div class="hero__shape hero__shape--1"></div>
+        <div class="hero__shape hero__shape--2"></div>
+        <div class="hero__shape hero__shape--3"></div>
+      </div>
+      <div class="container hero__content">
+        <h1 class="hero__title anim-fade-up">A tested kéri.<br><span class="hero__title-accent">Hallgass rá.</span></h1>
+        <p class="hero__subtitle anim-fade-up anim-delay-1">A masszázs számos pozitív hatással van a testre és a
+          lélekre, ezért több mint egyszerű kényeztetés.
+          Ugyan csodára nem képes, mégis sokat javíthat az általános közérzeten és a fizikai állapoton.
+          Segít ellazítani az izmokat, nyugtatja az elmét, javítja a nyirok- és vérkeringést, támogatja az
+          immunrendszert, továbbá javítja az alvásminőséget is.</p>
+        <div class="hero__cta-wrapper anim-fade-up anim-delay-2">
+          <div class="hero__cta-wrapper anim-fade-up anim-delay-2">
+          <a href="tel:+36XXXXXXXXX" class="btn btn--primary hero__cta" id="heroCta">
+            <span class="btn__icon"><i data-lucide="phone"></i></span>
+            <span>+36 XX XXX XXXX</span>
+          </a>
+          <img src="FridiMutat.png" alt="Friderikusz István ajánlja" class="hero__pointer-image">
+        </div>
+      </div>
+    </section>
+      </div>
+    </section>
+
+    <!-- ============ MIÉRT FONTOS? ============ -->
+    <section class="section section--benefits" id="miert">
+      <div class="container">
+        <h2 class="section__title anim-fade-up">Miért fontos a gyógymasszázs?</h2>
+        <p class="section__subtitle anim-fade-up anim-delay-1">Testednek ugyanúgy szüksége van rendszeres
+          karbantartásra, mint bármi másnak, amire számítasz az életben.</p>
+
+        <div class="cards cards--benefits">
+          <div class="card anim-fade-up">
+            <div class="card__icon"><i data-lucide="shield-check"></i></div>
+            <h3 class="card__title">Fájdalomcsillapítás</h3>
+            <p class="card__text">A masszázs hatására a szervezetben oxitocin és endorfin szabadul fel, amelyek
+              természetes fájdalomcsillapítóként hatnak. Emellett a kellemes ingerek gyorsabban haladnak az
+              idegpályákon, mint a fájdalomérzet, így képesek azt „megelőzni” és csillapítani az idegrendszerben.</p>
+          </div>
+          <div class="card anim-fade-up anim-delay-1">
+            <div class="card__icon"><i data-lucide="moon-star"></i></div>
+            <h3 class="card__title">Stresszoldás és alvás</h3>
+            <p class="card__text">Aktiválja a paraszimpatikus idegrendszert, csökken a kortizolszint, javul az
+              alvásminőség.</p>
+          </div>
+          <div class="card anim-fade-up anim-delay-2">
+            <div class="card__icon"><i data-lucide="heart-pulse"></i></div>
+            <h3 class="card__title">Vérkeringés javítás</h3>
+            <p class="card__text">Élénkíti a vér- és nyirokkeringést, segíti a szervezet méregtelenítését, a szövetek
+              oxigénellátását és regenerációját, valamint támogatja az immunrendszert.</p>
+          </div>
+          <div class="card anim-fade-up anim-delay-3">
+            <div class="card__icon"><i data-lucide="align-vertical-space-between"></i></div>
+            <h3 class="card__title">Tartásjavítás</h3>
+            <p class="card__text">Korrigálja a rossz testtartásból eredő izomegyensúly-zavarokat és megelőzi a további
+              problémákat.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SZOLGÁLTATÁSOK ============ -->
+    <section class="section section--services" id="szolgaltatasok">
+      <div class="container">
+        <h2 class="section__title anim-fade-up">Szolgáltatások</h2>
+        <p class="section__subtitle anim-fade-up anim-delay-1">Minden kezelés személyre szabott, az Ön állapotának és
+          igényeinek megfelelően.</p>
+
+        <div class="cards cards--services">
+          <div class="service-card anim-fade-up">
+            <div class="service-card__header">
+              <h3 class="service-card__title">Gyógymasszázs</h3>
+              <span class="service-card__badge">Gyógyító</span>
+            </div>
+            <p class="service-card__text">Az alapvető gyógymasszázs, amely feloldja az izmok
+              feszültségét és mélyrelaxációt biztosít.</p>
+            <div class="service-card__footer">
+              <span class="service-card__duration"><i data-lucide="clock" class="duration-icon"></i> 60 / 90 perc</span>
+            </div>
+          </div>
+
+          <div class="service-card anim-fade-up anim-delay-1">
+            <div class="service-card__header">
+              <h3 class="service-card__title">Sportmasszázs</h3>
+              <span class="service-card__badge">Aktív</span>
+            </div>
+            <p class="service-card__text">Intenzív technikák sportolók és fizikailag aktív emberek számára, felgyorsítja
+              a regenerációt és megelőzi a sérüléseket.</p>
+            <div class="service-card__footer">
+              <span class="service-card__duration"><i data-lucide="clock" class="duration-icon"></i> 30 / 60 perc</span>
+            </div>
+          </div>
+
+          <div class="service-card anim-fade-up anim-delay-3">
+            <div class="service-card__header">
+              <h3 class="service-card__title">Triggerpont-terápia</h3>
+              <span class="service-card__badge">Célzott</span>
+            </div>
+            <p class="service-card__text">Pontosan lokalizált nyomáspontok kezelése, amely megszünteti a kisugárzó
+              fájdalmakat és az izomcsomókat.</p>
+            <div class="service-card__footer">
+              <span class="service-card__duration"><i data-lucide="clock" class="duration-icon"></i> 30 / 60 perc</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ HOGYAN MŰKÖDIK? ============ -->
+    <section class="section section--process" id="hogyan">
+      <div class="container">
+        <h2 class="section__title anim-fade-up">Hogyan működik?</h2>
+        <p class="section__subtitle anim-fade-up anim-delay-1">Három egyszerű lépés az Ön jobb közérzetéhez.</p>
+
+        <div class="timeline">
+          <div class="timeline__step anim-fade-up">
+            <div class="timeline__number">1</div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Időpontfoglalás</h3>
+              <p class="timeline__text">Hívjon telefonon vagy írjon üzenetet, megbeszéljük az Önnek megfelelő
+                időpontot.</p>
+            </div>
+          </div>
+          <div class="timeline__step anim-fade-up anim-delay-1">
+            <div class="timeline__number">2</div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Konzultáció</h3>
+              <p class="timeline__text">Az első találkozáskor felmérjük az állapotát és megtervezzük a személyre szabott
+                kezelést.</p>
+            </div>
+          </div>
+          <div class="timeline__step anim-fade-up anim-delay-2">
+            <div class="timeline__number">3</div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Kezelés és utókövetés</h3>
+              <p class="timeline__text">A kezelés után tanácsokkal látjuk el, és nyomon követjük a fejlődést.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ VÉLEMÉNYEK ============ -->
+    <section class="section section--testimonials" id="velemenyek">
+      <div class="container">
+        <h2 class="section__title anim-fade-up">Mit mondanak az ügyfelek?</h2>
+
+        <div class="cards cards--testimonials">
+          <div class="testimonial anim-fade-up">
+            <div class="testimonial__stars">★★★★★</div>
+            <blockquote class="testimonial__quote">„Évek óta küzdöttem hátfájással. Néhány alkalom után érezhetően
+              javult az állapotom. Végre tudok rendesen aludni!"</blockquote>
+            <p class="testimonial__author">Katalin, 45 éves</p>
+          </div>
+          <div class="testimonial anim-fade-up anim-delay-1">
+            <div class="testimonial__stars">★★★★★</div>
+            <blockquote class="testimonial__quote">„Sportoló vagyok, és a rendszeres sportmasszázs nélkül már el sem
+              tudom képzelni az edzéstervem. Profi munka!"</blockquote>
+            <p class="testimonial__author">Gergő, 32 éves</p>
+          </div>
+          <div class="testimonial anim-fade-up anim-delay-2">
+            <div class="testimonial__stars">★★★★★</div>
+            <blockquote class="testimonial__quote">„A stressz az egészségemre ment. A gyógymasszázs visszaadta az
+              egyensúlyomat, most már heti rendszerességgel járok."</blockquote>
+            <p class="testimonial__author">Eszter, 38 éves</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ KAPCSOLAT ============ -->
+    <section class="section section--contact" id="kapcsolat">
+      <div class="container">
+        <h2 class="section__title anim-fade-up">Kapcsolat</h2>
+        <p class="section__subtitle anim-fade-up anim-delay-1">Kérdése van vagy időpontot szeretne foglalni? Keressen
+          bátran!</p>
+
+        <div class="contact-grid">
+          <div class="contact-info anim-fade-up">
+            <div class="contact-info__item">
+              <span class="contact-info__icon"><i data-lucide="phone"></i></span>
+              <div>
+                <strong>Telefon</strong>
+                <a href="tel:+36XXXXXXXXX" class="contact-info__link">+36 XX XXX XXXX</a>
+              </div>
+            </div>
+            <div class="contact-info__item">
+              <span class="contact-info__icon"><i data-lucide="mail"></i></span>
+              <div>
+                <strong>E-mail</strong>
+                <a href="mailto:info@example.com" class="contact-info__link">info@example.com</a>
+              </div>
+            </div>
+            <div class="contact-info__item">
+              <span class="contact-info__icon"><i data-lucide="map-pin"></i></span>
+              <div>
+                <strong>Helyszín</strong>
+                <p class="contact-info__text">Budapest, XI. kerület<br>Pontos cím egyeztetés után</p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">© 2026 Friderikusz István - Gyógymasszőr</p>
+      <a href="adatvedelem.html" class="footer__link">Adatvédelmi tájékoztató</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>lucide.createIcons();</script>
+</body>
+
+</html>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://friderikuszmassage.hu/sitemap.xml
