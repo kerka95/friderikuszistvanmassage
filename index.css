@@ -1,5 +1,5 @@
 /* ============================================
-   GYÓGYMASSZÁZS, FRIDERIKUSZ ISTVÁN
+   GYÓGYMASSZÁZS, FARKAS IMRE
    Teljes CSS: világos & sötét mód
    ============================================ */
 
@@ -450,66 +450,6 @@ a:hover {
   position: relative;
   z-index: 1;
   max-width: 680px;
-}
-
-.hero__cta-wrapper {
-  position: relative;
-  display: inline-block;
-}
-
-.hero__pointer-image {
-  position: absolute;
-  top: 100%;
-  left: 100%;
-  height: 20vh;
-  width: auto;
-  z-index: 2;
-  pointer-events: none;
-  opacity: 0;
-  transform-origin: top left;
-  animation: pointerMoveShrink 2s cubic-bezier(0.25, 1, 0.5, 1) 5s both;
-}
-
-@keyframes pointerMoveShrink {
-  0% {
-    opacity: 0;
-    transform: translate(60vw, 35vh) scale(4.25);
-  }
-
-  20% {
-    opacity: 1;
-    transform: translate(60vw, 15vh) scale(4.25);
-  }
-
-  100% {
-    opacity: 1;
-    transform: translate(0, 0) scale(1);
-  }
-}
-
-@media (max-width: 1200px) {
-  @keyframes pointerMoveShrink {
-    0% {
-      opacity: 0;
-      transform: translate(45vw, 35vh) scale(3.5);
-    }
-
-    20% {
-      opacity: 1;
-      transform: translate(45vw, 15vh) scale(3.5);
-    }
-
-    100% {
-      opacity: 1;
-      transform: translate(0, 0) scale(1);
-    }
-  }
-}
-
-@media (max-width: 900px) {
-  .hero__pointer-image {
-    display: none;
-  }
 }
 
 .hero__title {

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://friderikuszmassage.hu/sitemap.xml
+Sitemap: https://farkasmassage.hu/sitemap.xml

@@ -1,5 +1,5 @@
 /* ============================================
-   GYÓGYMASSZÁZS, FRIDERIKUSZ ISTVÁN
+   GYÓGYMASSZÁZS, FARKAS IMRE
    JavaScript: témaváltás, animációk, menü
    ============================================ */
 
